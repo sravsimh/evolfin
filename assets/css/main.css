@@ -29,7 +29,7 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: rgba(255, 255, 255, 0.6);  /* The default color of the main navmenu links */
+  --nav-color: rgb(255, 255, 255);  /* The default color of the main navmenu links */
   --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
@@ -205,7 +205,7 @@ h6 {
     padding: 18px 15px;
     font-size: 16px;
     font-family: var(--nav-font);
-    font-weight: 400;
+    font-weight: bolder;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -736,7 +736,7 @@ section,
     content: "";
     width: 44%;
     /* background-image: linear-gradient(180deg, color-mix(in srgb, var(--background-color), transparent 15%), color-mix(in srgb, var(--background-color), transparent 15%) 100%), linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%); */
-    backdrop-filter: blur(8px);
+    
     top: 0;
     bottom: 0;
     z-index: 2;
@@ -748,6 +748,7 @@ section,
   content: "";
   /* background: color-mix(in srgb, var(--background-color), transparent 40%); */
   inset: 0;
+  background:#0000003b;
   z-index: 2;
 }
 
