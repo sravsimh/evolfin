@@ -24,7 +24,8 @@
   --heading-color: #1b2f45; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #56b8e6; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --contrast-color: #ffffff;
+  --gold-elite: #f9ecd8; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -667,6 +668,30 @@ h6 {
 /*--------------------------------------------------------------
 # Global Sections
 --------------------------------------------------------------*/
+
+.gold-elite{
+  background-color: var(--gold-elite)!important;
+}
+.bs{
+  box-shadow: 19px 17px 20px 1px #141212d6;
+}
+.hover-text{
+  position: absolute;
+  text-align: center;
+  
+  z-index: 1;
+  color: white;
+}
+.hover-text h1{
+  color: white;
+}
+.video-bg{
+  position: relative;
+  z-index: -1;
+}
+.abt{
+  background-color: #00000099!important;
+}
 section,
 .section {
   color: var(--default-color);
@@ -1501,6 +1526,11 @@ section,
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
+}
+
+.img-tech{
+  width:60%;
+  height:60%;
 }
 
 .portfolio .portfolio-filters li {
